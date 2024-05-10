@@ -1,0 +1,62 @@
+.product-card {
+  width: 12rem; /* Narrower card width */
+  border-radius: 15px; /* Rounded corners for the card */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  position: relative; /* Required for absolute positioning */
+}
+
+.product-card-tag {
+  position: absolute; /* Tag positioned above the image */
+  top: 0px; /* Negative top value for overlap */
+  left: 0px; 
+  background-color: red; 
+  color: white; 
+  padding: 2px 15px; 
+  border-top-left-radius: 15px; 
+  border-bottom-right-radius: 15px; 
+  
+}
+
+.product-card-image-wrapper {
+  display: flex; 
+  justify-content: center; 
+  padding: 10px; /* Padding around the image */
+}
+
+.product-card-image {
+  width: 60%; /* Smaller image */
+  border-radius: 15px; /* Rounded corners for the image */
+}
+
+.product-category {
+  position: absolute; /* Positioning category above the card title */
+  bottom: 10px; /* Positioned near the bottom of the image */
+  left: 17px; 
+  top:  180px;
+  color: gray; /* Gray color for category text */
+}
+
+.favorite-icon {
+  color: red; 
+  cursor: pointer; /* Interaction cursor */
+}
+
+.rating {
+  font-weight: bold; /* Bold font for rating */
+}
+
+
+
+.small-image {
+  width: 110px; /* Smaller image width */
+  height: 110px; /* Consistent height */
+}
+
+.d-flex {
+  display: flex; /* Flexbox layout */
+  align-items: center; /* Align items vertically */
+}
+
+.ms-3 {
+  margin-left: 1rem; /* Space between image and text */
+}

@@ -1,0 +1,33 @@
+.product-card {
+  width: 12rem; /* Narrower card width */
+  border-radius: 15px; /* Rounded corners for the card */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  position: relative; /* Absolute positioning required for the tag */
+}
+
+.product-card-tag {
+  position: absolute; /* Absolute positioning for tag */
+  top: -10px; /* Position to overlap the border */
+  left: -10px; 
+  background-color: red; 
+  color: white; 
+  padding: 5px 15px; 
+  border-top-left-radius: 15px; 
+  border-bottom-right-radius: 0px; 
+}
+
+.product-card-image-wrapper {
+  display: flex; 
+  justify-content: center; 
+  padding: 10px; /* Padding for spacing */
+}
+
+.product-card-image {
+  width: 50%; /* Smaller image size */
+  border-radius: 15px; /* Rounded corners for the image */
+}
+
+.favorite-icon {
+  color: red; 
+  cursor: pointer; /* Interaction cursor */
+}
